@@ -45,5 +45,6 @@ Backend:
 
 - Notes are stored in memory / JSON
 - Simple UI focused on functionality
+  
 - <img width="2879" height="1799" alt="image" src="https://github.com/user-attachments/assets/f52b330a-3cb2-47b8-a2b2-a357db132f2f" />
 
