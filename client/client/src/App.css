@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f7e3ff;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.app {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 48px 24px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #111;
+  margin-bottom: 28px;
+}
+
+.form {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 14px;
+  font-family: inherit;
+  color: #111;
+  background: #fafafa;
+  outline: none;
+  transition: border-color 0.15s;
+  margin-top: 10px;
+}
+
+.input:focus,
+.textarea:focus {
+  border-color: #111;
+}
+
+.textarea {
+  height: 100px;
+  resize: none;
+}
+
+.add-btn {
+  align-self: flex-end;
+  background: #111;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 9px 20px;
+  font-size: 14px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.15s;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.add-btn:hover {
+  background: #333;
+}
+
+
+
+.notes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 14px;
+}
+
+.note-card {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.note-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.07);
+}
+
+.note-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #111;
+  word-break: break-word;
+}
+
+.note-content {
+  font-size: 13px;
+  color: #555;
+  line-height: 1.5;
+  flex: 1;
+  word-break: break-word;
+  
+}
+
+.delete-btn {
+ align-self: flex-end;
+  background: #111;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 9px 20px;
+  font-size: 14px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.15s;
+  margin-top: 10px;
+}
+
+.delete-btn:hover {
+  border-color: #e05555;
+  color: #e05555;
+}
+
+.edit-btn {
+ align-self: flex-end;
+  background: #111;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 9px 20px;
+  font-size: 14px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.15s;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
